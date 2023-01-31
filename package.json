@@ -1,0 +1,15 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "node-sass": "6",
+    "sass-loader": "10.2.1",
+    "vuepress": "^1.9.8"
+  }
+}
