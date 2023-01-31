@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   title: '网站标题',
   description: '网站描述',
-  // base: '/bar/', // 网站部署到一个非根路径
+  base: '/vuepress-starter/', // 网站部署到一个非根路径
   configureWebpack: {
     resolve: {
       alias: {
